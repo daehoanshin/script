@@ -1,1 +1,1 @@
-shell-script
+스크립트 연구
