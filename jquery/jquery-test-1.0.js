@@ -63,6 +63,7 @@ checkedList.each(function(){
 		var lockItemPath2 = lockItemPath.substring(0, lockItemPath.length-1);
     console.log(lockItem);
 });
+
 // alert(" the equals  is " + equals);
 
 $("dpl_checkAll").not(":disabled").prop("checked", false);
