@@ -75,3 +75,6 @@ if($('#DeployList').find('input[name=dplChk]').not(":disabled").length == 0) {
 
 $("input[name=dplChk]").not(":disabled").prop("checked", chk);
 $("input[name=dplChk]:not(:disabled)").prop("checked", chk);
+
+
+$("#lockListBody").children().find("td:has(i)")
