@@ -78,3 +78,8 @@ $("input[name=dplChk]:not(:disabled)").prop("checked", chk);
 
 
 $("#lockListBody").children().find("td:has(i)")
+
+
+$("#lockListBody").find("input[name=lockChk]").each(function( index ) {
+		console.log($(this).parent().next().text() + "/" + $(this).prev().children().text());
+	});
