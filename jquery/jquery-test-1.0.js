@@ -64,3 +64,13 @@ checkedList.each(function(){
     console.log(lockItem);
 });
 // alert(" the equals  is " + equals);
+
+$("dpl_checkAll").not(":disabled").prop("checked", false);
+
+
+if($('#DeployList').find('input[name=dplChk]').not(":disabled").length == 0) {
+		$('#dpl_checkAll').attr('checked', false);
+	}
+
+$("input[name=dplChk]").not(":disabled").prop("checked", chk);
+$("input[name=dplChk]:not(:disabled)").prop("checked", chk);
