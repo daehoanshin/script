@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head><meta http-equiv='Content-Type' content='text/html; charset=utf-8' /></head>
+
+<body leftmargin='0' topmargin='0'>
+<table width='700' cellpadding='0' cellspacing='0'>
+<tr><td colspan=4 height='40'><img src='"+ConfigMGR.getStringProperty("smtp.image", "rtc.smtp")+"mail_top.png'></td></tr>
+<tr><td colspan=4 height='30'></td></tr>
+<tr><td colspan=4 style='padding-left:20px; padding-right:20px; '><font size='3'><b>[RTC-AMS] 아래 사항에 대해서 확인 부탁드립니다.</b></font></td></tr>
+<tr><td colspan=4 height='25'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 요청내용 : </font></td>
+<td colspan=3><font size='2'>"+contents+"</font></td>
+</tr>
+<tr><td colspan=4 height='15'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● RTC 접수번호 : </font></td>
+<td colspan=3><font size='2'>"+wiType + " " + wiID+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 제목 : </font></td>
+<td colspan=3><font size='2'>"+wiSubject+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● ICC 접수번호 : </font></td>
+<td colspan=3><font size='2'>"+cm_received_id_str+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 시스템구분 : </font></td>
+<td><font size='2'>"+cm_system_type_str+"</font></td>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 업무구분 : </font></td>
+<td><font size='2'>"+cm_ehwk_type_str+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 담당BA : </font></td>
+<td><font size='2'>"+owner_nm+"</font></td>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 담당개발자 : </font></td>
+<td><font size='2'>"+cm_dev_name_str+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 희망목표일자 : </font></td>
+<td><font size='2'>"+eh_desired_date_str+"</font></td>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 합의목표일자 : </font></td>
+<td><font size='2'>"+cm_target_date_str+"</font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 예상시작일 : </font></td>
+<td><font size='2'>"+cm_est_start_date_str+"</font></td>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● 예상종료일 : </font></td>
+<td><font size='2'>"+cm_est_end_date_str+"</font></td>
+</tr>
+<tr><td colspan=4 height='30'></td></tr>
+<tr>
+<td width='140' style='padding-left:35px; padding-right:20px; '><font size='2'>● RTC Link : </font></td>
+<td colspan=3><font size='2'><a href='"+wiLink+"' target='_blank'>"+wiLink+"</a></font></td>
+</tr>
+<tr><td colspan=4 height='10'></td></tr>
+<tr>
+<td colspan=4 align='right' style='padding-right:20px;'><img src='"+ConfigMGR.getStringProperty("smtp.image", "rtc.smtp")+"mail_logo.png' border='0'/></td>
+</tr>
+<tr><td colspan=4 height='10'><img src='"+ConfigMGR.getStringProperty("smtp.image", "rtc.smtp")+"mail_bottom.png' border='0'></td></tr>
+</table>
+</body>
+</html>
