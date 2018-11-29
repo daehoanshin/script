@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(function() {
+      alert("공백제거전 ::" + $("#trimtest").val());
+      alert("공백제거후 ::" + $.trim($("#trimtest").val()));
+    })
+  </script>
+</head>
+
+<body> <input type="text" id="trimtest" value=" abc" /> </body>
+
+</html>
