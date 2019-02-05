@@ -9,3 +9,9 @@ https://regexr.com/
 
 # [정규식] Methods of the Pattern Class
 http://egloos.zum.com/ultteky/v/3945804
+
+
+# 정규식 최신
+## 사이트
+- [DebuggexBeta](https://www.debuggex.com/)
+- [PCRE Regex Cheatsheet](https://www.debuggex.com/cheatsheet/regex/pcre)
